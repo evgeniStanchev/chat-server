@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ChatServer">
+	<test name="RunAllTests">
+		<packages>
+		<package name="com.egtinteractive.chat.server.tests.*"/>
+		</packages>
+	</test>
+</suite>
