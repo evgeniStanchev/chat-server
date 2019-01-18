@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  RunAllTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RunAllTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 17 15:02:21 EET 2019</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14043 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.AddRoomTest.addRoomTest()'><b>addRoomTest</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.AddRoomTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.AddRoomTest@59fa1d9b</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest.connectUsers()'><b>connectUsers</b><br>Test class: com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest@5e5792a0</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest.incorrectRemoveRoomTest()'><b>incorrectRemoveRoomTest</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@14acaea5</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.JoinRoomTest.joinRoomTest()'><b>joinRoomTest</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.JoinRoomTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.JoinRoomTest@d8355a8</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest.leaveCurrentRoomTest()'><b>leaveCurrentRoomTest</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@46d56d67</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest.leaveWithoutCurrentRoom()'><b>leaveWithoutCurrentRoom</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@46d56d67</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.quit.QuitServerTest.quitServerTest()'><b>quitServerTest</b><br>Test class: com.egtinteractive.chat.server.tests.quit.QuitServerTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.quit.QuitServerTest@26653222</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest.removeRoomTest()'><b>removeRoomTest</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@14acaea5</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest.removeRoomWhileInTheRoom()'><b>removeRoomWhileInTheRoom</b><br>Test class: com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@14acaea5</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest.showOptionsTest()'><b>showOptionsTest</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest@523884b2</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest.showRoom()'><b>showRoom</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest@28d25987</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest.showRoomsWithoutRoomsTest()'><b>showRoomsWithoutRoomsTest</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest@4501b7af</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest.showRoomsWithoutRoomsTest()'><b>showRoomsWithoutRoomsTest</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest@5b275dab</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest.showUsersWithRoom()'><b>showUsersWithRoom</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@61832929</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest.showUsersWithoutRoom()'><b>showUsersWithoutRoom</b><br>Test class: com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest</td>
+<td></td>
+<td>0</td>
+<td>com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@61832929</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest.writeMessage()'><b>writeMessage</b><br>Test class: com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest</td>
+<td></td>
+<td>9</td>
+<td>com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest@29774679</td></tr>
+<tr>
+<td title='com.egtinteractive.chat.server.tests.stress.DelayMessageTest.writeMessage()'><b>writeMessage</b><br>Test class: com.egtinteractive.chat.server.tests.stress.DelayMessageTest</td>
+<td></td>
+<td>4</td>
+<td>com.egtinteractive.chat.server.tests.stress.DelayMessageTest@3ffc5af1</td></tr>
+</table><p>
+</body>
+</html>

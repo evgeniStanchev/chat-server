@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12823" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12823" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:55Z">
+      <class name="com.egtinteractive.chat.server.tests.quit.QuitServerTest">
+        <test-method status="PASS" signature="quitServerTest()[pri:0, instance:com.egtinteractive.chat.server.tests.quit.QuitServerTest@55f3ddb1]" name="quitServerTest" duration-ms="9" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitServerTest -->
+      </class> <!-- com.egtinteractive.chat.server.tests.quit.QuitServerTest -->
+      <class name="com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest">
+        <test-method status="PASS" signature="showOptionsTest()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest@18be83e4]" name="showOptionsTest" duration-ms="42" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOptionsTest -->
+      </class> <!-- com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest -->
+      <class name="com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest">
+        <test-method status="PASS" signature="showUsersWithRoom()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@8bd1b6a]" name="showUsersWithRoom" duration-ms="81" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showUsersWithRoom -->
+        <test-method status="PASS" signature="showUsersWithoutRoom()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@8bd1b6a]" name="showUsersWithoutRoom" duration-ms="5" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showUsersWithoutRoom -->
+      </class> <!-- com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest -->
+      <class name="com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest">
+        <test-method status="PASS" signature="showRoom()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest@4b9e13df]" name="showRoom" duration-ms="39" started-at="2019-01-18T08:40:50Z" finished-at="2019-01-18T08:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showRoom -->
+      </class> <!-- com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest -->
+      <class name="com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest">
+        <test-method status="PASS" signature="connectUsers()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest@cb5822]" name="connectUsers" duration-ms="175" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectUsers -->
+      </class> <!-- com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest -->
+      <class name="com.egtinteractive.chat.server.tests.rooms.AddRoomTest">
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.AddRoomTest@2b98378d]" name="startTheServer" is-config="true" duration-ms="6" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest@cb5822]" name="startTheServer" is-config="true" duration-ms="7" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.JoinRoomTest@475530b9]" name="startTheServer" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@4c70fda8]" name="startTheServer" is-config="true" duration-ms="2" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.DelayMessageTest@224edc67]" name="startTheServer" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@1d057a39]" name="startTheServer" is-config="true" duration-ms="2" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.quit.QuitServerTest@55f3ddb1]" name="startTheServer" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest@18be83e4]" name="startTheServer" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest@14acaea5]" name="startTheServer" is-config="true" duration-ms="2" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest@4b9e13df]" name="startTheServer" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest@46d56d67]" name="startTheServer" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest@26be92ad]" name="startTheServer" is-config="true" duration-ms="2" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="startTheServer()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@8bd1b6a]" name="startTheServer" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheServer -->
+        <test-method status="PASS" signature="addRoomTest()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.AddRoomTest@2b98378d]" name="addRoomTest" duration-ms="5" started-at="2019-01-18T08:40:42Z" finished-at="2019-01-18T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRoomTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.AddRoomTest@2b98378d]" name="shutdown" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.ConnectALotOfUsersTest@cb5822]" name="shutdown" is-config="true" duration-ms="6" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.DelayMessageTest@224edc67]" name="shutdown" is-config="true" duration-ms="11" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.JoinRoomTest@475530b9]" name="shutdown" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@4c70fda8]" name="shutdown" is-config="true" duration-ms="5" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.quit.QuitServerTest@55f3ddb1]" name="shutdown" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@1d057a39]" name="shutdown" is-config="true" duration-ms="2" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowOptionsTest@18be83e4]" name="shutdown" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest@14acaea5]" name="shutdown" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomTest@4b9e13df]" name="shutdown" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest@46d56d67]" name="shutdown" is-config="true" duration-ms="1" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest@26be92ad]" name="shutdown" is-config="true" duration-ms="3" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowUsersTest@8bd1b6a]" name="shutdown" is-config="true" duration-ms="0" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.egtinteractive.chat.server.tests.rooms.AddRoomTest -->
+      <class name="com.egtinteractive.chat.server.tests.rooms.JoinRoomTest">
+        <test-method status="PASS" signature="joinRoomTest()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.JoinRoomTest@475530b9]" name="joinRoomTest" duration-ms="40" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinRoomTest -->
+      </class> <!-- com.egtinteractive.chat.server.tests.rooms.JoinRoomTest -->
+      <class name="com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest">
+        <test-method status="PASS" signature="incorrectRemoveRoomTest()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@1d057a39]" name="incorrectRemoveRoomTest" duration-ms="43" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectRemoveRoomTest -->
+        <test-method status="PASS" signature="removeRoomTest()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@1d057a39]" name="removeRoomTest" duration-ms="39" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRoomTest -->
+        <test-method status="PASS" signature="removeRoomWhileInTheRoom()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest@1d057a39]" name="removeRoomWhileInTheRoom" duration-ms="80" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRoomWhileInTheRoom -->
+      </class> <!-- com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest -->
+      <class name="com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest">
+        <test-method status="PASS" signature="writeMessage()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest@26be92ad]" name="writeMessage" duration-ms="7357" started-at="2019-01-18T08:40:43Z" finished-at="2019-01-18T08:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMessage -->
+      </class> <!-- com.egtinteractive.chat.server.tests.stress.WriteMessageToALotOfUsersTest -->
+      <class name="com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest">
+        <test-method status="PASS" signature="leaveCurrentRoomTest()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@4c70fda8]" name="leaveCurrentRoomTest" duration-ms="39" started-at="2019-01-18T08:40:50Z" finished-at="2019-01-18T08:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveCurrentRoomTest -->
+        <test-method status="PASS" signature="leaveWithoutCurrentRoom()[pri:0, instance:com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest@4c70fda8]" name="leaveWithoutCurrentRoom" duration-ms="1" started-at="2019-01-18T08:40:50Z" finished-at="2019-01-18T08:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveWithoutCurrentRoom -->
+      </class> <!-- com.egtinteractive.chat.server.tests.rooms.LeaveRoomTest -->
+      <class name="com.egtinteractive.chat.server.tests.stress.DelayMessageTest">
+        <test-method status="PASS" signature="writeMessage()[pri:0, instance:com.egtinteractive.chat.server.tests.stress.DelayMessageTest@224edc67]" name="writeMessage" duration-ms="4732" started-at="2019-01-18T08:40:50Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMessage -->
+      </class> <!-- com.egtinteractive.chat.server.tests.stress.DelayMessageTest -->
+      <class name="com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest">
+        <test-method status="PASS" signature="showRoomsWithoutRoomsTest()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest@14acaea5]" name="showRoomsWithoutRoomsTest" duration-ms="43" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showRoomsWithoutRoomsTest -->
+      </class> <!-- com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithRoomsTest -->
+      <class name="com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest">
+        <test-method status="PASS" signature="showRoomsWithoutRoomsTest()[pri:0, instance:com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest@46d56d67]" name="showRoomsWithoutRoomsTest" duration-ms="2" started-at="2019-01-18T08:40:55Z" finished-at="2019-01-18T08:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showRoomsWithoutRoomsTest -->
+      </class> <!-- com.egtinteractive.chat.server.tests.showinfo.ShowRoomsWithoutRoomsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

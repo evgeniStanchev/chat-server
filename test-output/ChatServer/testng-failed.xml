@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ChatServer]">
+  <test thread-count="5" name="RunAllTests(failed)">
+    <classes>
+      <class name="com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest">
+        <methods>
+          <include name="removeRooms"/>
+        </methods>
+      </class> <!-- com.egtinteractive.chat.server.tests.rooms.RemoveRoomsTest -->
+    </classes>
+  </test> <!-- RunAllTests(failed) -->
+</suite> <!-- Failed suite [ChatServer] -->
